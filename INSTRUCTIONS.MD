@@ -4,7 +4,7 @@ To run the web app first make sure you are in the webapp/book-recommender direct
 Here run npm install to install the required modules for the front-end. You may also need to
 run the following commands as well:
 npm install react-scripts start
-npm install react-tinder-cards
+npm install react-tinder-card
 npm install @material-ui/core
 npm install @material-ui/icons
 
