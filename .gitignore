@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/webapp/book-recommender/node_modules
+/webapp/book-recommender/node_modules/
 /.pnp
 .pnp.js
 /webapp/book-recommender/package-lock.json
