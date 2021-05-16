@@ -3,7 +3,7 @@
 # dependencies
 webapp/book-recommender/node_modules/
 webapp/node_modules/
-webapp/book-recommender/__pycache__/
+webapp/book-recommender/__pycache__/backend.cpython-39.pyc
 /.pnp
 .pnp.js
 webapp/book-recommender/package-lock.json

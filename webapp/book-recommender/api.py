@@ -48,4 +48,4 @@ def put(user_id):
         val = 1
     return {'alert' : val}, 201 #returns empty string ie no return value, and apprporiate status code, 201
 
-app.run(debug=True)#
+app.run(debug=True)
