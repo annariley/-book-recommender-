@@ -1,0 +1,21 @@
+/*
+ * General format of header and styling follows this tutorial: https://www.youtube.com/watch?v=DQfeB_FKKkc&t=5317s, but slightly adjusted.
+ * In general we are just emulating Tinder's layout
+*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(153, 152, 152, 0.13);
+}
+
+.header__logo {
+    height: 60px;
+    object-fit: contain;
+    opacity: 0.55;
+}
+
+.header__icon {
+    padding: 20px;
+}

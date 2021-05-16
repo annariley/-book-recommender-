@@ -1,0 +1,95 @@
+/*
+ * General format of header and styling follows this tutorial: https://www.youtube.com/watch?v=DQfeB_FKKkc&t=5317s, but slightly adjusted.
+ * In general we are just copying Tinder's layout
+*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(56, 56, 56);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f142;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(56, 54, 54, 0.37)
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(58, 58, 58);;
+  }
+
+.entry {
+    position: relative;
+    width: 40vw;
+    padding: 20px;
+    min-width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    flex-direction:row-reverse;
+    text-align: left;
+    margin: auto;
+}
+
+.info {
+    position:absolute;
+    left: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.info > h3 {
+    font-size: large;
+    position: relative;
+    max-width: 400px;
+    color: black;
+}
+
+.info > h4 {
+    font-size: smaller;
+    position: relative;
+    color: grey;
+}
+
+.SavedList___container {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    overflow: auto;
+    height: 70vh;
+}
+
+.cover {
+    right: 3%;
+    max-height: 100px;
+    position: relative;
+}
+
+.x {
+    max-height: 15px;
+    max-width: 15px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Red_X.svg/1200px-Red_X.svg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.box {
+    position: relative;
+    align-self: center;
+}
