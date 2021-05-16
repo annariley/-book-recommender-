@@ -2,7 +2,7 @@ This file contains some Google Compute credits for your team.
 You can redeem them at: http://console.cloud.google.com/edu
 You need to do this **BEFORE MAY 11th**.
 
-FL5Q-YVAC-MBC0-KDE9
-FVWG-0R85-DUCE-RED1
-FXU0-79HW-B7G3-YU8B
+FL5Q-YVAC-MBC0-KDE9 - redeemed by Harvir
+FVWG-0R85-DUCE-RED1 - redeemed by Ritchie
+FXU0-79HW-B7G3-YU8B - redeemed by Declan
 G3EC-G7MR-K682-NGUT
