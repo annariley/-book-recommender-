@@ -2,6 +2,7 @@
 
 # dependencies
 webapp/book-recommender/node_modules/
+webapp/node_modules/
 /.pnp
 .pnp.js
 webapp/book-recommender/package-lock.json
