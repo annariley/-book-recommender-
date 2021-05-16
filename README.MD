@@ -1,1 +1,1 @@
-Please see INSTRUCTIONS.MD
+Please see INSTRUCTIONS.txt
