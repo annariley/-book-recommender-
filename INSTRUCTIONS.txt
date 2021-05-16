@@ -26,3 +26,5 @@ To restart the runtime for the Frontend you only need to refresh the page. For t
 Understanding the file structure of this repo:
 webapp/book-recommender: This folder contains all the files needed for the webapps operation
 cleanup_dataset.py: This is a separate script that was used to upload the books to MongoDB - do not run it
+
+Also note development was done in a different github repository - so commits on this repo do not reflect who developed what.
