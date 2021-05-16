@@ -21,6 +21,8 @@ and start the front end by calling: npm start
 
 If you run into any issues running these you may be missing a package, check the error you received, and if you are missing a package install it using similar commands as above.
 
+To restart the runtime for the Frontend you only need to refresh the page. For the backend you need to stop the script, and run python api.py again
+
 Understanding the file structure of this repo:
 webapp/book-recommender: This folder contains all the files needed for the webapps operation
 cleanup_dataset.py: This is a separate script that was used to upload the books to MongoDB - do not run it
