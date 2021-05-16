@@ -4,6 +4,7 @@
 /webapp/book-recommender/node_modules
 /.pnp
 .pnp.js
+/webapp/book-recommender/package-lock.json
 
 # testing
 /coverage
