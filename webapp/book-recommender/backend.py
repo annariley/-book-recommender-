@@ -36,10 +36,10 @@ class BookRecommenderEmbeddingML(nn.Module):
 def find_paired_user(ratings, matrix):
   bestDiff = np.inf
   bestUser = 0
-  for i in range(NumUsers): # 5 for now but should be ds_full.n_users
+  for i in range(NumUsers):
     diff = 0
     for rating in ratings:
-      diff = diff + abs(matrix[i][rating[0]] - rating[1])#Matrix will be tensor - may need to accomadate if so adjust future uses
+      diff = diff + abs(matrix[i][rating[0]] - rating[1])
     if diff < bestDiff:
       bestDiff = diff
       bestUser = i
@@ -52,7 +52,7 @@ class User ():
     self.ratings = ratings
     self.pair_id = find_paired_user(ratings, matrix)
     emb_index = torch.LongTensor([self.pair_id])
-    user_feature_vector = model.user_embedding(emb_index) # get feature vector for user 0
+    user_feature_vector = model.user_embedding(emb_index) 
     row = matrix[self.pair_id].detach().numpy()
     self.to_recommend = []
     for i in range(TotalNumBooks):
@@ -126,7 +126,6 @@ def get_book_data(book_id, collection):
     return collection.find_one({"book_id":book_id})["title"], collection.find_one({"book_id":book_id})["authors"], collection.find_one({"book_id":book_id})["image_url"]
 
 def get_recs(users, user_id, b_matrix, collection):
-  #Assuming right now users stored in user-array, may need to change this to accomadate grabbing it from the database
   currUser = users[int(user_id)]
   recs = currUser.get_books(b_matrix)
   recList = []
