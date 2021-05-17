@@ -20,6 +20,12 @@ Now you can start the backend by calling: python api.py
 and start the front end by calling: npm start
 
 If you run into any issues running these you may be missing a package, check the error you received, and if you are missing a package install it using similar commands as above.
+Some possible examples would be:
+npm install react-tinder-card
+npm install react-scripts
+npm install react-scripts start
+npm install @ui-materials/core
+npm install @ui-materials/icons
 
 To restart the runtime for the Frontend you only need to refresh the page. For the backend you need to stop the script, and run python api.py again
 
